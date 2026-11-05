@@ -46,7 +46,7 @@ Somos estudantes do **2º período do curso de Ciência da Computação e Desing
 | Camila Dias | cdsa@cesar.school |
 | Isabel Lucena | ial2@cesar.school |
 | João Miguel Ramos | jmrgc@cesar.school |
-| Lara Magri | @cesar.school |
+| Lara Magri | ljm2@cesar.school |
 | Leticia Dornas | lda2@cesar.school |
 | Lucas Nascimento | lsmn@cesar.school |
 | Luiz Eduardo Albuquerque | leaal@cesar.school |
