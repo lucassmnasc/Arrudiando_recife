@@ -12,16 +12,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
   <!-- ================= HEADER ================= -->
   <header class="header">
     <div class="container header__inner">
       <a href="#topo" class="logo" aria-label="Arrudiando Recife — início">
-        <svg class="logo__img" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="18" cy="18" r="18" fill="#E65100"/>
-          <path d="M18 7C12.5 7 8 11.5 8 17C8 23.5 18 29 18 29C18 29 28 23.5 28 17C28 11.5 23.5 7 18 7ZM18 20C16.3 20 15 18.7 15 17C15 15.3 16.3 14 18 14C19.7 14 21 15.3 21 17C21 18.7 19.7 20 18 20Z" fill="#FFF176"/>
-          <path d="M18 10V14M18 20V24M11 17H15M21 17H25" stroke="#E65100" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
+        <img src="img/logo.png" alt="Logo Arrudiando Recife" class="logo__img">
         <span class="logo__placeholder">ARRUDIANDO<br>RECIFE</span>
       </a>
 
@@ -31,6 +27,10 @@
         <a href="#cartas">As cartas</a>
         <a href="#projeto">O projeto</a>
       </nav>
+
+      <button id="theme-toggle" class="btn btn--outline" aria-label="Alternar modo escuro">
+        <span id="theme-icon">🌙</span>
+      </button>
 
       <a href="#cta" class="btn btn--outline">Bora arrudiar <span aria-hidden="true">↗</span></a>
     </div>
@@ -77,14 +77,12 @@
     <!-- ================= FAIXA (MARQUEE) ================= -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee__track">
-        <span>Eai, bora jogar?</span><i>✦</i>
-        <span>Cultura que vira aventura</span><i>✦</i>
-        <span>Estratégia com sotaque</span><i>✦</i>
-        <span>Arrudia com a gente</span><i>✦</i>
-        <span>Eai, bora jogar?</span><i>✦</i>
-        <span>Cultura que vira aventura</span><i>✦</i>
-        <span>Estratégia com sotaque</span><i>✦</i>
-        <span>Arrudia com a gente</span><i>✦</i>
+        <span>Museu Cais do Sertão</span><i>✦</i>
+        <span>Rosa dos Ventos</span><i>✦</i>
+        <span>Cinema São Luís</span><i>✦</i>
+        <span>Paço do Frevo</span><i>✦</i>
+        <span>Torre de Cristal</span><i>✦</i>
+        <span>Praia Boa Viagem</span><i>✦</i>
       </div>
     </div>
 
@@ -93,7 +91,8 @@
       <div class="container split">
         <div>
           <p class="eyebrow"> O jogo</p>
-          <h2 class="title">Conheça o <br><span class="accent">Jogo</span></h2>
+          <h2 class="title">Sobre o<br><span class="accent">Jogo</span></h2>
+          <img src="img/caixote.png" alt="Caixote do jogo Arrudiando Recife" class="sobre-jogo__img">
         </div>
 
         <div class="split__body">
@@ -199,13 +198,15 @@
           <!-- CARTA 2: AZAR (VERMELHO) -->
           <div class="flip-card">
             <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img/Azar.png" alt="Carta Azar" class="flip-card__img">
-              </div>
-              <div class="flip-card-back card--red">
-                <span class="card__label">Azar</span>
-                <h3>Malefícios</h3>
-                <p>Traz malefícios ao jogador que pegar ela: pode perder uma rodada, um recurso ou uma vida.</p>
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/Azar.png" alt="Carta Azar" class="flip-card__img">
+                </div>
+                <div class="flip-card-back card--red">
+                  <span class="card__label">Azar</span>
+                  <h3>Malefícios</h3>
+                  <p>Traz malefícios ao jogador que pegar ela: pode perder uma rodada, um recurso ou uma vida.</p>
+                </div>
               </div>
             </div>
           </div>
